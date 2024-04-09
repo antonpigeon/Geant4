@@ -1,0 +1,10 @@
+^C:\USERS\ANTON\DESKTOP\GEANT4WORKSPACE\B1\BUILD\CMAKEFILES\3E8D81702E977E7CD04239167A313EA3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/anton/Desktop/Geant4Workspace/B1 -BC:/Users/anton/Desktop/Geant4Workspace/B1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/anton/Desktop/Geant4Workspace/B1/build/B1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

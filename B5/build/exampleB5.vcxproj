@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AADE158A-D928-32F0-9D55-855993065C14}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>exampleB5</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\anton\Desktop\Geant4Workspace\B5\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">exampleB5.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">exampleB5</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\anton\Desktop\Geant4Workspace\B5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/anton/Geant4-11.2/include/Geant4"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4VIS_USE_TOOLSSG_WINDOWS_GLES;G4VIS_USE_TOOLSSG_WINDOWS_ZB;G4VIS_USE_OPENGLWIN32;G4UI_USE_WIN32;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4VIS_USE_TOOLSSG_WINDOWS_GLES;G4VIS_USE_TOOLSSG_WINDOWS_ZB;G4VIS_USE_OPENGLWIN32;G4UI_USE_WIN32;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\anton\Desktop\Geant4Workspace\B5\include;C:\Users\anton\Geant4-11.2\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\anton\Desktop\Geant4Workspace\B5\include;C:\Users\anton\Geant4-11.2\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\anton\Geant4-11.2\lib\G4Tree.lib;C:\Users\anton\Geant4-11.2\lib\G4FR.lib;C:\Users\anton\Geant4-11.2\lib\G4GMocren.lib;C:\Users\anton\Geant4-11.2\lib\G4visHepRep.lib;C:\Users\anton\Geant4-11.2\lib\G4RayTracer.lib;C:\Users\anton\Geant4-11.2\lib\G4VRML.lib;C:\Users\anton\Geant4-11.2\lib\G4ToolsSG.lib;C:\Users\anton\Geant4-11.2\lib\G4OpenGL.lib;C:\Users\anton\Geant4-11.2\lib\G4vis_management.lib;C:\Users\anton\Geant4-11.2\lib\G4modeling.lib;C:\Users\anton\Geant4-11.2\lib\G4interfaces.lib;C:\Users\anton\Geant4-11.2\lib\G4mctruth.lib;C:\Users\anton\Geant4-11.2\lib\G4geomtext.lib;C:\Users\anton\Geant4-11.2\lib\G4error_propagation.lib;C:\Users\anton\Geant4-11.2\lib\G4readout.lib;C:\Users\anton\Geant4-11.2\lib\G4physicslists.lib;C:\Users\anton\Geant4-11.2\lib\G4run.lib;C:\Users\anton\Geant4-11.2\lib\G4event.lib;C:\Users\anton\Geant4-11.2\lib\G4tracking.lib;C:\Users\anton\Geant4-11.2\lib\G4parmodels.lib;C:\Users\anton\Geant4-11.2\lib\G4processes.lib;C:\Users\anton\Geant4-11.2\lib\G4digits_hits.lib;C:\Users\anton\Geant4-11.2\lib\G4track.lib;C:\Users\anton\Geant4-11.2\lib\G4particles.lib;C:\Users\anton\Geant4-11.2\lib\G4geometry.lib;C:\Users\anton\Geant4-11.2\lib\G4materials.lib;C:\Users\anton\Geant4-11.2\lib\G4graphics_reps.lib;COMCTL32.lib;opengl32.lib;C:\Users\anton\Geant4-11.2\lib\G4analysis.lib;C:\Users\anton\Geant4-11.2\lib\G4expat.lib;C:\Users\anton\Geant4-11.2\lib\G4zlib.lib;C:\Users\anton\Geant4-11.2\lib\G4intercoms.lib;C:\Users\anton\Geant4-11.2\lib\G4global.lib;C:\Users\anton\Geant4-11.2\lib\G4clhep.lib;C:\Users\anton\Geant4-11.2\lib\G4ptl.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/anton/Desktop/Geant4Workspace/B5/build/Release/exampleB5.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/anton/Desktop/Geant4Workspace/B5/build/Release/exampleB5.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\anton\Desktop\Geant4Workspace\B5\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/anton/Desktop/Geant4Workspace/B5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/anton/Desktop/Geant4Workspace/B5 -BC:/Users/anton/Desktop/Geant4Workspace/B5/build --check-stamp-file C:/Users/anton/Desktop/Geant4Workspace/B5/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\anton\Desktop\Geant4Workspace\B5\build\CMakeFiles\3.29.1\CMakeCCompiler.cmake;C:\Users\anton\Desktop\Geant4Workspace\B5\build\CMakeFiles\3.29.1\CMakeCXXCompiler.cmake;C:\Users\anton\Desktop\Geant4Workspace\B5\build\CMakeFiles\3.29.1\CMakeRCCompiler.cmake;C:\Users\anton\Desktop\Geant4Workspace\B5\build\CMakeFiles\3.29.1\CMakeSystem.cmake;C:\Users\anton\Desktop\Geant4Workspace\B5\exampleB5.in;C:\Users\anton\Desktop\Geant4Workspace\B5\exampleB5.out;C:\Users\anton\Desktop\Geant4Workspace\B5\gui.mac;C:\Users\anton\Desktop\Geant4Workspace\B5\icons.mac;C:\Users\anton\Desktop\Geant4Workspace\B5\init_vis.mac;C:\Users\anton\Desktop\Geant4Workspace\B5\plotter.mac;C:\Users\anton\Desktop\Geant4Workspace\B5\run.png;C:\Users\anton\Desktop\Geant4Workspace\B5\run1.mac;C:\Users\anton\Desktop\Geant4Workspace\B5\run2.mac;C:\Users\anton\Desktop\Geant4Workspace\B5\tsg_offscreen.mac;C:\Users\anton\Desktop\Geant4Workspace\B5\vis.mac;C:\Users\anton\Geant4-11.2\lib\cmake\Geant4\Geant4Config.cmake;C:\Users\anton\Geant4-11.2\lib\cmake\Geant4\Geant4ConfigVersion.cmake;C:\Users\anton\Geant4-11.2\lib\cmake\Geant4\Geant4LibraryDepends-release.cmake;C:\Users\anton\Geant4-11.2\lib\cmake\Geant4\Geant4LibraryDepends.cmake;C:\Users\anton\Geant4-11.2\lib\cmake\Geant4\Geant4PackageCache.cmake;C:\Users\anton\Geant4-11.2\lib\cmake\Geant4\Modules\IntelCompileFeatures.cmake;C:\Users\anton\Geant4-11.2\lib\cmake\Geant4\Modules\MSVCCompileFeatures.cmake;C:\Users\anton\Geant4-11.2\lib\cmake\Geant4\PTL\PTLConfig.cmake;C:\Users\anton\Geant4-11.2\lib\cmake\Geant4\PTL\PTLConfigVersion.cmake;C:\Users\anton\Geant4-11.2\lib\cmake\Geant4\PTL\PTLTargets-release.cmake;C:\Users\anton\Geant4-11.2\lib\cmake\Geant4\PTL\PTLTargets.cmake;C:\Users\anton\Geant4-11.2\lib\cmake\Geant4\UseGeant4.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\anton\Desktop\Geant4Workspace\B5\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\exampleB5.cc" />
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\ActionInitialization.cc" />
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\CellParameterisation.cc" />
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\DetectorConstruction.cc" />
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\DriftChamberHit.cc" />
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\DriftChamberSD.cc" />
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\EmCalorimeterHit.cc" />
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\EmCalorimeterSD.cc" />
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\EventAction.cc" />
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\HadCalorimeterHit.cc" />
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\HadCalorimeterSD.cc" />
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\HodoscopeHit.cc" />
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\HodoscopeSD.cc" />
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\MagneticField.cc" />
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\PrimaryGeneratorAction.cc" />
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\RunAction.cc" />
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\ActionInitialization.hh" />
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\CellParameterisation.hh" />
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\Constants.hh" />
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\DetectorConstruction.hh" />
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\DriftChamberHit.hh" />
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\DriftChamberSD.hh" />
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\EmCalorimeterHit.hh" />
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\EmCalorimeterSD.hh" />
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\EventAction.hh" />
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\HadCalorimeterHit.hh" />
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\HadCalorimeterSD.hh" />
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\HodoscopeHit.hh" />
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\HodoscopeSD.hh" />
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\MagneticField.hh" />
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\PrimaryGeneratorAction.hh" />
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\RunAction.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\anton\Desktop\Geant4Workspace\B5\build\ZERO_CHECK.vcxproj">
+      <Project>{46DACF77-B614-3545-935C-3CBB1FB65BD4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

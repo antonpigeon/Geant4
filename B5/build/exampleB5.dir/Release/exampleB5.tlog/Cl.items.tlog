@@ -1,0 +1,16 @@
+C:\Users\anton\Desktop\Geant4Workspace\B5\exampleB5.cc;C:\Users\anton\Desktop\Geant4Workspace\B5\build\exampleB5.dir\Release\exampleB5.obj
+C:\Users\anton\Desktop\Geant4Workspace\B5\src\ActionInitialization.cc;C:\Users\anton\Desktop\Geant4Workspace\B5\build\exampleB5.dir\Release\ActionInitialization.obj
+C:\Users\anton\Desktop\Geant4Workspace\B5\src\CellParameterisation.cc;C:\Users\anton\Desktop\Geant4Workspace\B5\build\exampleB5.dir\Release\CellParameterisation.obj
+C:\Users\anton\Desktop\Geant4Workspace\B5\src\DetectorConstruction.cc;C:\Users\anton\Desktop\Geant4Workspace\B5\build\exampleB5.dir\Release\DetectorConstruction.obj
+C:\Users\anton\Desktop\Geant4Workspace\B5\src\DriftChamberHit.cc;C:\Users\anton\Desktop\Geant4Workspace\B5\build\exampleB5.dir\Release\DriftChamberHit.obj
+C:\Users\anton\Desktop\Geant4Workspace\B5\src\DriftChamberSD.cc;C:\Users\anton\Desktop\Geant4Workspace\B5\build\exampleB5.dir\Release\DriftChamberSD.obj
+C:\Users\anton\Desktop\Geant4Workspace\B5\src\EmCalorimeterHit.cc;C:\Users\anton\Desktop\Geant4Workspace\B5\build\exampleB5.dir\Release\EmCalorimeterHit.obj
+C:\Users\anton\Desktop\Geant4Workspace\B5\src\EmCalorimeterSD.cc;C:\Users\anton\Desktop\Geant4Workspace\B5\build\exampleB5.dir\Release\EmCalorimeterSD.obj
+C:\Users\anton\Desktop\Geant4Workspace\B5\src\EventAction.cc;C:\Users\anton\Desktop\Geant4Workspace\B5\build\exampleB5.dir\Release\EventAction.obj
+C:\Users\anton\Desktop\Geant4Workspace\B5\src\HadCalorimeterHit.cc;C:\Users\anton\Desktop\Geant4Workspace\B5\build\exampleB5.dir\Release\HadCalorimeterHit.obj
+C:\Users\anton\Desktop\Geant4Workspace\B5\src\HadCalorimeterSD.cc;C:\Users\anton\Desktop\Geant4Workspace\B5\build\exampleB5.dir\Release\HadCalorimeterSD.obj
+C:\Users\anton\Desktop\Geant4Workspace\B5\src\HodoscopeHit.cc;C:\Users\anton\Desktop\Geant4Workspace\B5\build\exampleB5.dir\Release\HodoscopeHit.obj
+C:\Users\anton\Desktop\Geant4Workspace\B5\src\HodoscopeSD.cc;C:\Users\anton\Desktop\Geant4Workspace\B5\build\exampleB5.dir\Release\HodoscopeSD.obj
+C:\Users\anton\Desktop\Geant4Workspace\B5\src\MagneticField.cc;C:\Users\anton\Desktop\Geant4Workspace\B5\build\exampleB5.dir\Release\MagneticField.obj
+C:\Users\anton\Desktop\Geant4Workspace\B5\src\PrimaryGeneratorAction.cc;C:\Users\anton\Desktop\Geant4Workspace\B5\build\exampleB5.dir\Release\PrimaryGeneratorAction.obj
+C:\Users\anton\Desktop\Geant4Workspace\B5\src\RunAction.cc;C:\Users\anton\Desktop\Geant4Workspace\B5\build\exampleB5.dir\Release\RunAction.obj

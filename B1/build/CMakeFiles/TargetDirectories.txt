@@ -1,0 +1,5 @@
+C:/Users/anton/Desktop/Geant4Workspace/B1/build/CMakeFiles/exampleB1.dir
+C:/Users/anton/Desktop/Geant4Workspace/B1/build/CMakeFiles/B1.dir
+C:/Users/anton/Desktop/Geant4Workspace/B1/build/CMakeFiles/INSTALL.dir
+C:/Users/anton/Desktop/Geant4Workspace/B1/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/anton/Desktop/Geant4Workspace/B1/build/CMakeFiles/ZERO_CHECK.dir

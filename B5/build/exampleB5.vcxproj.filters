@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\exampleB5.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\ActionInitialization.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\CellParameterisation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\DetectorConstruction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\DriftChamberHit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\DriftChamberSD.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\EmCalorimeterHit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\EmCalorimeterSD.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\EventAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\HadCalorimeterHit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\HadCalorimeterSD.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\HodoscopeHit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\HodoscopeSD.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\MagneticField.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\PrimaryGeneratorAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anton\Desktop\Geant4Workspace\B5\src\RunAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\ActionInitialization.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\CellParameterisation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\Constants.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\DetectorConstruction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\DriftChamberHit.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\DriftChamberSD.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\EmCalorimeterHit.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\EmCalorimeterSD.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\EventAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\HadCalorimeterHit.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\HadCalorimeterSD.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\HodoscopeHit.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\HodoscopeSD.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\MagneticField.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\PrimaryGeneratorAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anton\Desktop\Geant4Workspace\B5\include\RunAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\anton\Desktop\Geant4Workspace\B5\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C09D1600-7B7D-3DFB-8B28-3162FEDF3009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{386B7D2E-25CC-3B5F-9FF1-61A08C6F89EA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

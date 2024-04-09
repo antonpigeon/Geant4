@@ -1,0 +1,19 @@
+﻿  Building Custom Rule C:/Users/anton/Desktop/Geant4Workspace/B5/CMakeLists.txt
+  exampleB5.cc
+  ActionInitialization.cc
+  CellParameterisation.cc
+  DetectorConstruction.cc
+  DriftChamberHit.cc
+  DriftChamberSD.cc
+  EmCalorimeterHit.cc
+  EmCalorimeterSD.cc
+  EventAction.cc
+  HadCalorimeterHit.cc
+  HadCalorimeterSD.cc
+  HodoscopeHit.cc
+  HodoscopeSD.cc
+  MagneticField.cc
+  PrimaryGeneratorAction.cc
+  RunAction.cc
+  Создание кода...
+  exampleB5.vcxproj -> C:\Users\anton\Desktop\Geant4Workspace\B5\build\Release\exampleB5.exe
