@@ -63,3 +63,78 @@
 /vis/viewer/set/autoRefresh true
 /vis/viewer/refresh
 /vis/verbose warnings
+/run/beamOn 1
+/control/execute C:\Users\Антон_Ноут\Desktop\Geant4\B1\build\run1.mac
+/run/initialize
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle gamma
+/gun/energy 6 MeV
+/run/beamOn 5
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/beamOn 1
+/control/execute C:\Users\Антон_Ноут\Desktop\Geant4\B1\build\run2.mac
+/run/initialize
+/control/verbose 2
+/run/verbose 2
+/gun/particle gamma
+/gun/energy 6 MeV
+/run/printProgress 100
+/run/beamOn 1000
+/gun/particle proton
+/gun/energy 210 MeV
+/run/beamOn 1000
+/vis/enable
+/vis/viewer/flush
+/vis/viewer/refresh viewer-0
+/vis/viewer/update viewer-0
+/vis/enable
+/vis/reviewKeptEvents
+/vis/viewer/rebuild
+/vis/viewer/refresh
+/vis/viewer/rebuild
+/vis/viewer/refresh
+/vis/viewer/flush
+/vis/viewer/refresh viewer-0
+/vis/viewer/update viewer-0
+/vis/scene/add/trajectories
+/tracking/storeTrajectory 1
+/vis/scene/notifyHandlers
+/vis/viewer/rebuild
+/vis/viewer/refresh
+/vis/viewer/flush
+/vis/viewer/refresh viewer-0
+/vis/viewer/update viewer-0
+/vis/scene/add/trajectories
+/tracking/storeTrajectory 1
+/vis/scene/notifyHandlers
+/vis/viewer/rebuild
+/vis/viewer/refresh
+/vis/viewer/flush
+/vis/viewer/refresh viewer-0
+/vis/viewer/update viewer-0
+/vis/scene/add/trajectories
+/tracking/storeTrajectory 1
+/vis/scene/notifyHandlers
+/vis/viewer/rebuild
+/vis/viewer/refresh
+/vis/viewer/flush
+/vis/viewer/refresh viewer-0
+/vis/viewer/update viewer-0
+/vis/scene/add/trajectories
+/tracking/storeTrajectory 1
+/vis/scene/notifyHandlers
+/vis/viewer/rebuild
+/vis/viewer/refresh
+/vis/viewer/flush
+/vis/viewer/refresh viewer-0
+/vis/viewer/update viewer-0
+/vis/viewer/rebuild
+/vis/viewer/refresh
+/vis/viewer/flush
+/vis/viewer/refresh viewer-0
+/vis/viewer/update viewer-0

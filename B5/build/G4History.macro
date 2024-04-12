@@ -67,28 +67,81 @@
 /gui/addButton viewer "Flush viewer (= refresh + update)" "/vis/viewer/flush"
 /gui/addButton viewer "Update scene" "/vis/scene/notifyHandlers"
 /gui/addIcon "Run beam on" user_icon "/run/beamOn 1" run.png
+/vis/scene/notifyHandlers
+/vis/scene/notifyHandlers
+/gun/energy 1 GeV
 /run/beamOn 1
 /analysis/h1/getVector
 /analysis/h2/getVector
-/vis/plot
-/analysis/list
-/vis/enable
+/control/execute run1.mac
+/run/initialize
+/run/beamOn 3
 /analysis/h1/getVector
 /analysis/h2/getVector
-/vis/plot
+/B5/detector/armAngle 0. deg
+/run/geometryModified
+/B5/field/value 0. tesla
+/run/beamOn 3
+/vis/scene/notifyHandlers scene-0
+/analysis/h1/getVector
+/analysis/h2/getVector
+/B5/detector/armAngle 60. deg
+/run/geometryModified
+/B5/field/value 2. tesla
+/run/beamOn 3
+/vis/scene/notifyHandlers scene-0
+/analysis/h1/getVector
+/analysis/h2/getVector
+/B5/detector/armAngle 30. deg
+/run/geometryModified
+/B5/field/value 1. tesla
+/B5/generator/momentum 2. GeV
+/B5/generator/sigmaMomentum 0.
+/B5/generator/sigmaAngle 0.
+/B5/generator/sigmaAngle 2. deg
+/run/beamOn 3
+/vis/scene/notifyHandlers scene-0
+/analysis/h1/getVector
+/analysis/h2/getVector
+/B5/field/value 0 tesla
+/vis/scene/notifyHandlers
 /vis/viewer/flush
 /vis/viewer/refresh viewer-0
 /vis/viewer/update viewer-0
-/vis/plot
-/vis/viewer/set/viewpointThetaPhi 0. 0.
-/vis/viewer/refresh
-/vis/viewer/set/viewpointThetaPhi 0. 0.
-/vis/viewer/refresh
-/vis/viewer/set/viewpointThetaPhi 90. 0.
-/vis/viewer/refresh
-/vis/viewer/set/viewpointThetaPhi 0. 90.
-/vis/viewer/refresh
-/vis/viewer/set/viewpointThetaPhi 45. -45.
+/control/execute run1.mac
+/run/initialize
+/run/beamOn 3
+/analysis/h1/getVector
+/analysis/h2/getVector
+/B5/detector/armAngle 0. deg
+/run/geometryModified
+/B5/field/value 0. tesla
+/run/beamOn 3
+/vis/scene/notifyHandlers scene-0
+/analysis/h1/getVector
+/analysis/h2/getVector
+/B5/detector/armAngle 60. deg
+/run/geometryModified
+/B5/field/value 2. tesla
+/run/beamOn 3
+/vis/scene/notifyHandlers scene-0
+/analysis/h1/getVector
+/analysis/h2/getVector
+/B5/detector/armAngle 30. deg
+/run/geometryModified
+/B5/field/value 1. tesla
+/B5/generator/momentum 2. GeV
+/B5/generator/sigmaMomentum 0.
+/B5/generator/sigmaAngle 0.
+/B5/generator/sigmaAngle 2. deg
+/run/beamOn 3
+/vis/scene/notifyHandlers scene-0
+/analysis/h1/getVector
+/analysis/h2/getVector
+/vis/open TSG
+/vis/sceneHandler/create TSG
+/vis/sceneHandler/attach
+/vis/viewer/create ! ! 600x600-0+0
 /vis/viewer/refresh
 /control/execute run1.mac
 /run/initialize
@@ -120,34 +173,8 @@
 /vis/scene/notifyHandlers scene-0
 /analysis/h1/getVector
 /analysis/h2/getVector
-/control/execute run1.mac
-/run/initialize
-/run/beamOn 3
+/gun/particle neutron
+/gun/energy 10 GeV
+/run/beamOn 1
 /analysis/h1/getVector
 /analysis/h2/getVector
-/B5/detector/armAngle 0. deg
-/run/geometryModified
-/B5/field/value 0. tesla
-/run/beamOn 3
-/vis/scene/notifyHandlers scene-0
-/analysis/h1/getVector
-/analysis/h2/getVector
-/B5/detector/armAngle 60. deg
-/run/geometryModified
-/B5/field/value 2. tesla
-/run/beamOn 3
-/vis/scene/notifyHandlers scene-0
-/analysis/h1/getVector
-/analysis/h2/getVector
-/B5/detector/armAngle 30. deg
-/run/geometryModified
-/B5/field/value 1. tesla
-/B5/generator/momentum 2. GeV
-/B5/generator/sigmaMomentum 0.
-/B5/generator/sigmaAngle 0.
-/B5/generator/sigmaAngle 2. deg
-/run/beamOn 3
-/vis/scene/notifyHandlers scene-0
-/analysis/h1/getVector
-/analysis/h2/getVector
-/analysis/list
