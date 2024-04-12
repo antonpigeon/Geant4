@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\exampleB2a.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\src\ActionInitialization.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\src\DetectorConstruction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\src\DetectorMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\src\EventAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\src\PrimaryGeneratorAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\src\RunAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\src\TrackerHit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\src\TrackerSD.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\include\ActionInitialization.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\include\DetectorConstruction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\include\DetectorMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\include\EventAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\include\PrimaryGeneratorAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\include\RunAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\include\TrackerHit.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\include\TrackerSD.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Антон_Ноут\Desktop\Geant4\B2a\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D1A4CDDD-7D7C-3EDD-A748-2BA981B2851A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9FECCAD1-07F5-385F-8A1B-FCE4110ED321}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\АНТОН_НОУТ\DESKTOP\GEANT4\B2A\BUILD\CMAKEFILES\7044E0D7905457A978E7973F9D072E3C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Антон_Ноут/Desktop/Geant4/B2a -BC:/Users/Антон_Ноут/Desktop/Geant4/B2a/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/B2a.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

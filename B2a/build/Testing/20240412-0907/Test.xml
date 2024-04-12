@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240412-0907-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.29.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="[NON-UTF-8-BYTE-0xC0][NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xF2][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xED]_[NON-UTF-8-BYTE-0xCD][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xF3][NON-UTF-8-BYTE-0xF2]-[NON-UTF-8-BYTE-0xCF][NON-UTF-8-BYTE-0xCA]"
+	OSRelease="7"
+	OSVersion="Service Pack 1 (Build 7601)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="1"
+	ProcessorCacheSize="128"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="11216"
+	TotalPhysicalMemory="5609"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="1396"
+	>
+	<Testing>
+		<StartDateTime>Apr 12 12:07 [NON-UTF-8-BYTE-0xCC][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xF1][NON-UTF-8-BYTE-0xEA][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xE2][NON-UTF-8-BYTE-0xF1][NON-UTF-8-BYTE-0xEA][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xE5] [NON-UTF-8-BYTE-0xE2][NON-UTF-8-BYTE-0xF0][NON-UTF-8-BYTE-0xE5][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xFF] ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1712912829</StartTestTime>
+		<TestList/>
+		<EndDateTime>Apr 12 12:07 [NON-UTF-8-BYTE-0xCC][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xF1][NON-UTF-8-BYTE-0xEA][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xE2][NON-UTF-8-BYTE-0xF1][NON-UTF-8-BYTE-0xEA][NON-UTF-8-BYTE-0xEE][NON-UTF-8-BYTE-0xE5] [NON-UTF-8-BYTE-0xE2][NON-UTF-8-BYTE-0xF0][NON-UTF-8-BYTE-0xE5][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xFF] ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1712912829</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

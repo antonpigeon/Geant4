@@ -1,0 +1,4 @@
+C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/exampleB2a.dir
+C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/INSTALL.dir
+C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/ZERO_CHECK.dir

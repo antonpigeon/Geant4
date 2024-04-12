@@ -1,0 +1,468 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Windows - 6.1.7601 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/msys64/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+      (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+      
+      Сборка начата 12.04.2024 12:02:13.
+      Проект "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\3.29.1\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\3.29.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\3.29.1\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:05.16
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/3.29.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/msys64/mingw64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+      (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+      
+      Сборка начата 12.04.2024 12:02:19.
+      Проект "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\3.29.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\3.29.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\3.29.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:02.00
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/3.29.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d_\u041d\u043e\u0443\u0442/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-0ooyk8"
+      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d_\u041d\u043e\u0443\u0442/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-0ooyk8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-0ooyk8'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_a4939.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 12.04.2024 12:02:22.
+        Проект "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ooyk8\\cmTC_a4939.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_a4939.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ooyk8\\Debug\\".
+          Создание каталога "cmTC_a4939.dir\\Debug\\cmTC_a4939.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_a4939.dir\\Debug\\cmTC_a4939.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4939.dir\\Debug\\\\" /Fd"cmTC_a4939.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30147 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4939.dir\\Debug\\\\" /Fd"cmTC_a4939.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ooyk8\\Debug\\cmTC_a4939.exe" /INCREMENTAL /ILK:"cmTC_a4939.dir\\Debug\\cmTC_a4939.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-0ooyk8/Debug/cmTC_a4939.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-0ooyk8/Debug/cmTC_a4939.lib" /MACHINE:X64  /machine:x64 cmTC_a4939.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_a4939.vcxproj -> C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ooyk8\\Debug\\cmTC_a4939.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_a4939.dir\\Debug\\cmTC_a4939.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_a4939.dir\\Debug\\cmTC_a4939.tlog\\cmTC_a4939.lastbuildstate".
+        Сборка проекта "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ooyk8\\cmTC_a4939.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:02.42
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30147.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d_\u041d\u043e\u0443\u0442/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-v3jjjm"
+      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d_\u041d\u043e\u0443\u0442/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-v3jjjm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-v3jjjm'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_12c95.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 12.04.2024 12:02:26.
+        Проект "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3jjjm\\cmTC_12c95.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_12c95.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3jjjm\\Debug\\".
+          Создание каталога "cmTC_12c95.dir\\Debug\\cmTC_12c95.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_12c95.dir\\Debug\\cmTC_12c95.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12c95.dir\\Debug\\\\" /Fd"cmTC_12c95.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30147 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12c95.dir\\Debug\\\\" /Fd"cmTC_12c95.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3jjjm\\Debug\\cmTC_12c95.exe" /INCREMENTAL /ILK:"cmTC_12c95.dir\\Debug\\cmTC_12c95.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-v3jjjm/Debug/cmTC_12c95.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-v3jjjm/Debug/cmTC_12c95.lib" /MACHINE:X64  /machine:x64 cmTC_12c95.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_12c95.vcxproj -> C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3jjjm\\Debug\\cmTC_12c95.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_12c95.dir\\Debug\\cmTC_12c95.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_12c95.dir\\Debug\\cmTC_12c95.tlog\\cmTC_12c95.lastbuildstate".
+        Сборка проекта "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3jjjm\\cmTC_12c95.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.79
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30147.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Program Files/Geant4-11.2/lib/cmake/Geant4/PTL/PTLConfig.cmake:56 (find_dependency)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Program Files/Geant4-11.2/lib/cmake/Geant4/Geant4Config.cmake:285 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d_\u041d\u043e\u0443\u0442/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-ti4gw7"
+      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d_\u041d\u043e\u0443\u0442/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-ti4gw7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files/Geant4-11.2/lib/cmake/Geant4/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-ti4gw7'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_41b5e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 12.04.2024 12:02:29.
+        Проект "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ti4gw7\\cmTC_41b5e.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_41b5e.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ti4gw7\\Debug\\".
+          Создание каталога "cmTC_41b5e.dir\\Debug\\cmTC_41b5e.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_41b5e.dir\\Debug\\cmTC_41b5e.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41b5e.dir\\Debug\\\\" /Fd"cmTC_41b5e.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ti4gw7\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30147 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41b5e.dir\\Debug\\\\" /Fd"cmTC_41b5e.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ti4gw7\\src.c"
+        C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ti4gw7\\src.c(1,10): fatal error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ti4gw7\\cmTC_41b5e.vcxproj]
+        Сборка проекта "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ti4gw7\\cmTC_41b5e.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ti4gw7\\cmTC_41b5e.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ti4gw7\\src.c(1,10): fatal error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ti4gw7\\cmTC_41b5e.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:01.32
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Program Files/Geant4-11.2/lib/cmake/Geant4/PTL/PTLConfig.cmake:56 (find_dependency)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Program Files/Geant4-11.2/lib/cmake/Geant4/Geant4Config.cmake:285 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d_\u041d\u043e\u0443\u0442/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-udvc3u"
+      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d_\u041d\u043e\u0443\u0442/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-udvc3u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files/Geant4-11.2/lib/cmake/Geant4/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-udvc3u'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_b8c8e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 12.04.2024 12:02:31.
+        Проект "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udvc3u\\cmTC_b8c8e.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_b8c8e.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udvc3u\\Debug\\".
+          Создание каталога "cmTC_b8c8e.dir\\Debug\\cmTC_b8c8e.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_b8c8e.dir\\Debug\\cmTC_b8c8e.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b8c8e.dir\\Debug\\\\" /Fd"cmTC_b8c8e.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udvc3u\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30147 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b8c8e.dir\\Debug\\\\" /Fd"cmTC_b8c8e.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udvc3u\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udvc3u\\Debug\\cmTC_b8c8e.exe" /INCREMENTAL /ILK:"cmTC_b8c8e.dir\\Debug\\cmTC_b8c8e.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-udvc3u/Debug/cmTC_b8c8e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-udvc3u/Debug/cmTC_b8c8e.lib" /MACHINE:X64  /machine:x64 cmTC_b8c8e.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udvc3u\\cmTC_b8c8e.vcxproj]
+        Сборка проекта "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udvc3u\\cmTC_b8c8e.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udvc3u\\cmTC_b8c8e.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udvc3u\\cmTC_b8c8e.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:01.52
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Program Files/Geant4-11.2/lib/cmake/Geant4/PTL/PTLConfig.cmake:56 (find_dependency)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Program Files/Geant4-11.2/lib/cmake/Geant4/Geant4Config.cmake:285 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d_\u041d\u043e\u0443\u0442/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-sivo7p"
+      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d_\u041d\u043e\u0443\u0442/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-sivo7p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files/Geant4-11.2/lib/cmake/Geant4/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-sivo7p'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_a5b3c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 12.04.2024 12:02:33.
+        Проект "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sivo7p\\cmTC_a5b3c.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_a5b3c.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sivo7p\\Debug\\".
+          Создание каталога "cmTC_a5b3c.dir\\Debug\\cmTC_a5b3c.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_a5b3c.dir\\Debug\\cmTC_a5b3c.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5b3c.dir\\Debug\\\\" /Fd"cmTC_a5b3c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sivo7p\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30147 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5b3c.dir\\Debug\\\\" /Fd"cmTC_a5b3c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sivo7p\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sivo7p\\Debug\\cmTC_a5b3c.exe" /INCREMENTAL /ILK:"cmTC_a5b3c.dir\\Debug\\cmTC_a5b3c.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-sivo7p/Debug/cmTC_a5b3c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Антон_Ноут/Desktop/Geant4/B2a/build/CMakeFiles/CMakeScratch/TryCompile-sivo7p/Debug/cmTC_a5b3c.lib" /MACHINE:X64  /machine:x64 cmTC_a5b3c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sivo7p\\cmTC_a5b3c.vcxproj]
+        Сборка проекта "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sivo7p\\cmTC_a5b3c.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sivo7p\\cmTC_a5b3c.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Users\\Антон_Ноут\\Desktop\\Geant4\\B2a\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sivo7p\\cmTC_a5b3c.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:01.43
+        
+      exitCode: 1
+...
